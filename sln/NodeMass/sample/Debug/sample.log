@@ -1,0 +1,16 @@
+﻿Build started 12/2/2015 5:50:21 PM.
+     1>Project "C:\Temp\Zadacha\sln\NodeMass\sample\sample.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\sample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\samples\sample.cpp
+         sample.cpp
+     1>c:\temp\zadacha\samples\sample.cpp(3): error C2628: 'MassList' followed by 'void' is illegal (did you forget a ';'?)
+     1>c:\temp\zadacha\samples\sample.cpp(3): error C3874: return type of 'main' should be 'int' instead of 'MassList'
+     1>c:\temp\zadacha\samples\sample.cpp(5): error C2561: 'main' : function must return a value
+                 c:\temp\zadacha\samples\sample.cpp(3) : see declaration of 'main'
+     1>Done Building Project "C:\Temp\Zadacha\sln\NodeMass\sample\sample.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.39
