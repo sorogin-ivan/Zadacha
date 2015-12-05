@@ -1,14 +1,19 @@
-﻿Build started 12/2/2015 5:50:21 PM.
-     1>Project "C:\Temp\Zadacha\sln\NodeMass\NodeMass\NodeMass.vcxproj" on node 2 (build target(s)).
+﻿Сборка начата 05.12.2015 10:47:20.
+     1>Проект "C:\Иван\Лаба!\Zadacha\sln\NodeMass\NodeMass\NodeMass.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Creating "Debug\NodeMass.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Обращение к "Debug\NodeMass.unsuccessfulbuild".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\NodeMass.cpp
          NodeMass.cpp
-     1>c:\temp\zadacha\src\nodemass.cpp(3): error C2533: 'MassList::{ctor}' : constructors not allowed a return type
-     1>c:\temp\zadacha\src\nodemass.cpp(48): warning C4390: ';' : empty controlled statement found; is this the intent?
-     1>Done Building Project "C:\Temp\Zadacha\sln\NodeMass\NodeMass\NodeMass.vcxproj" (build target(s)) -- FAILED.
+     1>c:\иван\лаба!\zadacha\src\nodemass.cpp(58): warning C4715: MassList::Find: значение возвращается не при всех путях выполнения
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Иван\Лаба!\Zadacha\sln\NodeMass\Debug\NodeMass.lib" /NOLOGO Debug\NodeMass.obj
+         NodeMass.vcxproj -> C:\Иван\Лаба!\Zadacha\sln\NodeMass\Debug\NodeMass.lib
+       FinalizeBuildStatus:
+         Файл "Debug\NodeMass.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\NodeMass.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Zadacha\sln\NodeMass\NodeMass\NodeMass.vcxproj" завершено (целевые объекты build).
 
-Build FAILED.
+Построение успешно завершено.
 
-Time Elapsed 00:00:00.40
+Затраченное время: 00:00:00.99

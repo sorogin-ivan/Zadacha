@@ -1,16 +1,20 @@
-﻿Build started 12/2/2015 5:50:21 PM.
-     1>Project "C:\Temp\Zadacha\sln\NodeMass\sample\sample.vcxproj" on node 3 (build target(s)).
+﻿Сборка начата 05.12.2015 10:49:53.
+     1>Проект "C:\Иван\Лаба!\Zadacha\sln\NodeMass\sample\sample.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Creating "Debug\sample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Обращение к "Debug\sample.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\samples\sample.cpp
-         sample.cpp
-     1>c:\temp\zadacha\samples\sample.cpp(3): error C2628: 'MassList' followed by 'void' is illegal (did you forget a ';'?)
-     1>c:\temp\zadacha\samples\sample.cpp(3): error C3874: return type of 'main' should be 'int' instead of 'MassList'
-     1>c:\temp\zadacha\samples\sample.cpp(5): error C2561: 'main' : function must return a value
-                 c:\temp\zadacha\samples\sample.cpp(3) : see declaration of 'main'
-     1>Done Building Project "C:\Temp\Zadacha\sln\NodeMass\sample\sample.vcxproj" (build target(s)) -- FAILED.
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Иван\Лаба!\Zadacha\sln\NodeMass\Debug\sample.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Debug NodeMass.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Иван\Лаба!\Zadacha\sln\NodeMass\Debug\sample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Иван\Лаба!\Zadacha\sln\NodeMass\Debug\sample.lib" /MACHINE:X86 Debug\sample.obj
+     1>sample.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+         sample.vcxproj -> C:\Иван\Лаба!\Zadacha\sln\NodeMass\Debug\sample.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Иван\Лаба!\Zadacha\sln\NodeMass\Debug\sample.exe;#1" /manifest Debug\sample.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\sample.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\sample.lastbuildstate".
+     1>Построение проекта "C:\Иван\Лаба!\Zadacha\sln\NodeMass\sample\sample.vcxproj" завершено (целевые объекты build).
 
-Build FAILED.
+Построение успешно завершено.
 
-Time Elapsed 00:00:00.39
+Затраченное время: 00:00:00.16

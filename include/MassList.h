@@ -26,7 +26,7 @@ void Delete(VT);
 void Swap();
 void Push(VT);
 int MaxElem();
-}
+};
 
 
 #endif
